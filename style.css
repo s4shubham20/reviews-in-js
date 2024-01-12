@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f1f6fd;
+}
+
+h2{
+    font-size: 45px;
+    /* border-bottom:3px solid #59ace1; */
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+#header p{
+    border-bottom:3px solid #59ace1;
+    width: 30%;
+    margin: 0rem 5.9rem 0rem;
+}
+.review-section{
+    max-width: 40%;
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.person-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+}
+.person-img img{
+    max-width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.shadow{
+    position: absolute;
+    width: 117px;
+    height: 113px;
+    border-radius: 50%;
+    border: 7px solid #0097d1;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    transform: rotate(340deg);
+}
+
+.shadow::after {
+    content: "\f10d";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 18px;
+    color: #ffff;
+    position: absolute;
+    left: 4%;
+    margin: auto;
+    background: #0097d1;
+    transform: rotate(198deg);
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+#name , #job {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#job  {
+    color:#59ace1;
+    text-transform: capitalize;
+}
+.buttons{
+    margin: 2rem 0rem 1rem;
+}
+.buttons span {
+    font-size: 2rem;
+    color: #0097d1;
+
+}
+
+#next-button:hover, #prev-button:hover, #random-button:hover{
+    cursor: pointer;
+}
+
+#random-button{
+    background-color: #0097d1;
+    height: 2rem;
+    width: 8rem;
+    line-height: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+}
