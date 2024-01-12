@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -22,7 +23,7 @@ h2{
 #header p{
     border-bottom:3px solid #59ace1;
     width: 30%;
-    margin: 0rem 5.9rem 0rem;
+    margin: 1rem 6.2rem 0rem;
 }
 .review-section{
     max-width: 40%;
@@ -46,6 +47,7 @@ h2{
     max-width: 7rem;
     object-fit: cover;
     border-radius: 50%;
+/*    mix-blend-mode:multiply;*/
 }
 
 .shadow{
@@ -90,6 +92,10 @@ h2{
     font-size: 2rem;
     color: #0097d1;
 
+}
+div:has(#info){
+    margin-top: 2rem;
+    line-height: 1.7rem;
 }
 
 #next-button:hover, #prev-button:hover, #random-button:hover{
